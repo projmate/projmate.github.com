@@ -2,6 +2,7 @@
 <html>
   <head>
     <link href='http://fonts.googleapis.com/css?family=Plaster' rel='stylesheet' type='text/css'>
+    <link href='normalize.min.css' rel='stylesheet' type='text/css'>
     <style>
       html, body {
         height: 100%;
@@ -40,8 +41,21 @@
     <div id='middle'>
       <div id='logo'>PM</div>
       <div id='tagline'>projmate &middot; project editor &middot; soon</div>
-      <div id='subline'>UI / CLI / Linux, OSX &amp; Windows</div>
+      <div id='subline'>GUI / CLI / Linux / OSX / Windows</div>
     </div>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37926741-1']);
+      _gaq.push(['_setDomainName', 'projmate.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
   </body>
 </html>
 
